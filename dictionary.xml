@@ -190,6 +190,7 @@
     </Content>
     <Content type="html" view="canvas">
         <![CDATA[
+        <link rel="stylesheet" href="https://translate-widget.identitylabs.org/flair.css"></link>
 <style>.full_border{background-color:#e5ecf9;padding:4px 6px;margin:.2em 0;font-size:1em}.arrow{cursor:pointer;font-size:1.5em;vertical-align:-1px}.result_text{font-size:17px;font-family:'Open Sans',verdana}.inner_text{font-size:12px;font-family:'Open Sans',verdana}</style>
          <div id="bar">
         </div>
