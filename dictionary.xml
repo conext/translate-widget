@@ -1,0 +1,199 @@
+<Module>
+    <ModulePrefs title="__MSG_title__" title_url="__MSG_title_url__" description="__MSG_description__" author="Google Taiwan" author_email="googlemodules+dictionary+201109071@google.com" author_affiliation="Google Inc." author_location="Taiwan" category="tools" thumbnail="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/__MSG_thumbnail__" screenshot="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/__MSG_screenshot__">
+        <Require feature="setprefs"/>
+        <Require feature="dynamic-height"/>
+        <Icon>
+            http://www.google.com/images/icons/dictionary-16.gif
+        </Icon>
+        <!--
+         TODO(jestelle): Get localizations for the commented out languages
+        -->
+        <!--
+         Also, the source_language and target_language messages are not yet
+        -->
+        <!--  localized.  -->
+        <!--
+        Locale lang="af" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/af_ALL.xml" /
+        -->
+        <Locale lang="ar" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ar_ALL.xml" language_direction="rtl"/>
+        <Locale lang="bg" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/bg_ALL.xml"/>
+        <Locale lang="bs" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/bs_ALL.xml"/>
+        <Locale lang="ca" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ca_ALL.xml"/>
+        <Locale lang="cs" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/cs_ALL.xml"/>
+        <!--
+        Locale lang="cy" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/cy_ALL.xml" /
+        -->
+        <Locale lang="da" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/da_ALL.xml"/>
+        <Locale lang="de" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/de_ALL.xml"/>
+        <Locale lang="el" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/el_ALL.xml"/>
+        <Locale lang="en" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ALL_ALL.xml"/>
+        <Locale lang="es" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/es_ALL.xml"/>
+        <Locale lang="et" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/et_ALL.xml"/>
+        <!--
+        Locale lang="eu" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/eu_ALL.xml" /
+        -->
+        <!--
+        Locale lang="fa" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/fa_ALL.xml" /
+        -->
+        <Locale lang="fi" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/fi_ALL.xml"/>
+        <Locale lang="fil" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/fil_ALL.xml"/>
+        <Locale lang="fr" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/fr_ALL.xml"/>
+        <!--
+        Locale lang="ga" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ga_ALL.xml" /
+        -->
+        <Locale lang="gl" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/gl_ALL.xml"/>
+        <!--
+        Locale lang="gsw" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/gsw_ALL.xml" /
+        -->
+        <Locale lang="he" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/he_ALL.xml" language_direction="rtl"/>
+        <Locale lang="hi" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/hi_ALL.xml"/>
+        <Locale lang="hr" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/hr_ALL.xml"/>
+        <Locale lang="hu" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/hu_ALL.xml"/>
+        <Locale lang="hy" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/hy_ALL.xml"/>
+        <Locale lang="id" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/id_ALL.xml"/>
+        <Locale lang="in" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/in_ALL.xml"/>
+        <Locale lang="is" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/is_ALL.xml"/>
+        <Locale lang="it" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/it_ALL.xml"/>
+        <Locale lang="iw" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/iw_ALL.xml" language_direction="rtl"/>
+        <Locale lang="ja" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ja_ALL.xml"/>
+        <!--
+        Locale lang="ka" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ka_ALL.xml" /
+        -->
+        <Locale lang="ko" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ko_ALL.xml"/>
+        <Locale lang="ln" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ln_ALL.xml"/>
+        <Locale lang="lt" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/lt_ALL.xml"/>
+        <Locale lang="lv" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/lv_ALL.xml"/>
+        <Locale lang="mk" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/mk_ALL.xml"/>
+        <Locale lang="ms" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ms_ALL.xml"/>
+        <!--
+        Locale lang="mt" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/mt_ALL.xml" /
+        -->
+        <Locale lang="nl" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/nl_ALL.xml"/>
+        <Locale lang="no" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/no_ALL.xml"/>
+        <Locale lang="pl" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/pl_ALL.xml"/>
+        <Locale lang="pt" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/pt_ALL.xml"/>
+        <Locale lang="pt-BR" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/pt-BR_ALL.xml"/>
+        <Locale lang="pt-PT" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/pt-PT_ALL.xml"/>
+        <Locale lang="ro" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ro_ALL.xml"/>
+        <Locale lang="ru" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ru_ALL.xml"/>
+        <Locale lang="sk" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sk_ALL.xml"/>
+        <Locale lang="sl" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sl_ALL.xml"/>
+        <!--
+        Locale lang="sq" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sq_ALL.xml" /
+        -->
+        <Locale lang="sr" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sr_ALL.xml"/>
+        <Locale lang="sv" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sv_ALL.xml"/>
+        <!--
+        Locale lang="sw" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/sw_ALL.xml" /
+        -->
+        <Locale lang="th" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/th_ALL.xml"/>
+        <Locale lang="tl" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/tl_ALL.xml"/>
+        <Locale lang="tr" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/tr_ALL.xml"/>
+        <Locale lang="uk" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/uk_ALL.xml"/>
+        <Locale lang="ur" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ur_ALL.xml"/>
+        <Locale lang="vi" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/vi_ALL.xml"/>
+        <Locale lang="zh-CN" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/zh-CN_ALL.xml"/>
+        <Locale lang="zh-TW" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/zh-TW_ALL.xml"/>
+        <Locale lang="zh-TW" country="hk" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/zh-TW_hk.xml"/>
+        <Locale country="my" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ALL_my.xml"/>
+        <Locale country="ph" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ALL_ph.xml"/>
+        <Locale country="sg" messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ALL_sg.xml"/>
+        <Locale messages="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/ALL_ALL.xml"/>
+    </ModulePrefs>
+    <UserPref name="sl" display_name="__MSG_source_language__" default_value="__MSG_default_source__" datatype="enum">
+        <EnumValue value="auto" display_value="__MSG_auto__"/>
+        <EnumValue value="ar" display_value="__MSG_ar__"/>
+        <EnumValue value="bg" display_value="__MSG_bg__"/>
+        <EnumValue value="ca" display_value="__MSG_ca__"/>
+        <EnumValue value="cs" display_value="__MSG_cs__"/>
+        <EnumValue value="da" display_value="__MSG_da__"/>
+        <EnumValue value="de" display_value="__MSG_de__"/>
+        <EnumValue value="el" display_value="__MSG_el__"/>
+        <EnumValue value="en" display_value="__MSG_en__"/>
+        <EnumValue value="es" display_value="__MSG_es__"/>
+        <EnumValue value="fi" display_value="__MSG_fi__"/>
+        <EnumValue value="fr" display_value="__MSG_fr__"/>
+        <EnumValue value="hi" display_value="__MSG_hi__"/>
+        <EnumValue value="hr" display_value="__MSG_hr__"/>
+        <EnumValue value="id" display_value="__MSG_id__"/>
+        <EnumValue value="it" display_value="__MSG_it__"/>
+        <EnumValue value="iw" display_value="__MSG_iw__"/>
+        <EnumValue value="ja" display_value="__MSG_ja__"/>
+        <EnumValue value="ko" display_value="__MSG_ko__"/>
+        <EnumValue value="lt" display_value="__MSG_lt__"/>
+        <EnumValue value="lv" display_value="__MSG_lv__"/>
+        <EnumValue value="nl" display_value="__MSG_nl__"/>
+        <EnumValue value="no" display_value="__MSG_no__"/>
+        <EnumValue value="pl" display_value="__MSG_pl__"/>
+        <EnumValue value="pt" display_value="__MSG_pt__"/>
+        <EnumValue value="ro" display_value="__MSG_ro__"/>
+        <EnumValue value="ru" display_value="__MSG_ru__"/>
+        <EnumValue value="sk" display_value="__MSG_sk__"/>
+        <EnumValue value="sl" display_value="__MSG_sl__"/>
+        <EnumValue value="sr" display_value="__MSG_sr__"/>
+        <EnumValue value="sv" display_value="__MSG_sv__"/>
+        <EnumValue value="tl" display_value="__MSG_tl__"/>
+        <EnumValue value="uk" display_value="__MSG_uk__"/>
+        <EnumValue value="vi" display_value="__MSG_vi__"/>
+        <EnumValue value="zh" display_value="__MSG_zh__"/>
+    </UserPref>
+    <UserPref name="tl" display_name="__MSG_target_language__" default_value="__MSG_default_hl__" datatype="enum">
+        <EnumValue value="auto" display_value="__MSG_auto__"/>
+        <EnumValue value="ar" display_value="__MSG_ar__"/>
+        <EnumValue value="bg" display_value="__MSG_bg__"/>
+        <EnumValue value="ca" display_value="__MSG_ca__"/>
+        <EnumValue value="cs" display_value="__MSG_cs__"/>
+        <EnumValue value="da" display_value="__MSG_da__"/>
+        <EnumValue value="de" display_value="__MSG_de__"/>
+        <EnumValue value="el" display_value="__MSG_el__"/>
+        <EnumValue value="en" display_value="__MSG_en__"/>
+        <EnumValue value="es" display_value="__MSG_es__"/>
+        <EnumValue value="fi" display_value="__MSG_fi__"/>
+        <EnumValue value="fr" display_value="__MSG_fr__"/>
+        <EnumValue value="hi" display_value="__MSG_hi__"/>
+        <EnumValue value="hr" display_value="__MSG_hr__"/>
+        <EnumValue value="id" display_value="__MSG_id__"/>
+        <EnumValue value="it" display_value="__MSG_it__"/>
+        <EnumValue value="iw" display_value="__MSG_iw__"/>
+        <EnumValue value="ja" display_value="__MSG_ja__"/>
+        <EnumValue value="ko" display_value="__MSG_ko__"/>
+        <EnumValue value="lt" display_value="__MSG_lt__"/>
+        <EnumValue value="lv" display_value="__MSG_lv__"/>
+        <EnumValue value="nl" display_value="__MSG_nl__"/>
+        <EnumValue value="no" display_value="__MSG_no__"/>
+        <EnumValue value="pl" display_value="__MSG_pl__"/>
+        <EnumValue value="pt" display_value="__MSG_pt__"/>
+        <EnumValue value="ro" display_value="__MSG_ro__"/>
+        <EnumValue value="ru" display_value="__MSG_ru__"/>
+        <EnumValue value="sk" display_value="__MSG_sk__"/>
+        <EnumValue value="sl" display_value="__MSG_sl__"/>
+        <EnumValue value="sr" display_value="__MSG_sr__"/>
+        <EnumValue value="sv" display_value="__MSG_sv__"/>
+        <EnumValue value="tl" display_value="__MSG_tl__"/>
+        <EnumValue value="uk" display_value="__MSG_uk__"/>
+        <EnumValue value="vi" display_value="__MSG_vi__"/>
+        <EnumValue value="zh-CN" display_value="__MSG_zh_CN__"/>
+        <EnumValue value="zh-TW" display_value="__MSG_zh_TW__"/>
+    </UserPref>
+    <UserPref name="default_text" default_value="" datatype="hidden"/>
+    <Content type="html" view="default,home">
+        <![CDATA[
+        <link rel="stylesheet" href="https://translate-widget.identitylabs.org/flair.css"></link>
+<style>#dictTab #button{font-size:13px}#dictTab .definition{color:#000}#dictTab .explanation{margin-__BIDI_START_EDGE__:9px;margin-top:7px;margin-__BIDI_END_EDGE__:9px;color:#999;padding-__BIDI_START_EDGE__:30px}#dictTab .number{color:#4e8029;font-weight:bold;padding-__BIDI_END_EDGE__:5px}#dictTab
+]]>
+        <![CDATA[
+#phonetic_symbol{font-size:12px;margin-__BIDI_START_EDGE__:24px;font-family:Arial,Helvetica,sans-serif;color:#676767}#dictTab .meta{margin-__BIDI_START_EDGE__:-30px;float:__BIDI_START_EDGE__;display:inline}#dictTab .toggle{display:block;float:__BIDI_START_EDGE__;height:9px;width:9px;margin:5px 6px 0 0;overflow:hidden;text-decoration:none;background-repeat:no-repeat}#dictTab ol,li{padding:0;margin:0;text-indent:0;list-style:none}ol li{float:__BIDI_START_EDGE__;padding-__BIDI_END_EDGE__:1em}#dictTab .show .example{display:inline}#dictTab .hide .example{display:none}#dictTab .hide li{display:inline}#dictTab .hide .toggle{background-image:url("http://www.gstatic.com/ig/modules/dictionary/dictionary_content/plus.cache.gif")}#dictTab .show .toggle{background-image:url("http://www.gstatic.com/ig/modules/dictionary/dictionary_content/subt.cache.gif")}#dictTab .input1{color:#000}#dictTab .input1TS{color:#ccc}#dictTab #dict_tabs{float:__BIDI_START_EDGE__;width:187px;line-height:3em;text-align:__BIDI_END_EDGE__;position:relative;border-bottom:1px solid #ccc;margin-bottom:10px}#dictTab .dict_tab{background:#eee;border:1px solid #ccc;border-bottom:none;padding:0}#dictTab .dict_inner{margin:0;min-height:5px;max-height:250px;height:expression(this.scrollHeight>250?250:"auto");overflow-x:auto;overflow-y:auto;font-size:12px;font-family:Arial,Helvetica,sans-serif;word-wrap:break-word}#dictTab .arrow{cursor:pointer;font-size:1.5em;vertical-align:-1px}#dictTab .ref_link{text-align:__BIDI_END_EDGE__;font-size:10px;padding:3px 12px}</style>
+        <div id="bar">
+        </div>
+<div id=dictTab> <form id=dictForm name=_dictionary> <table><tr><td colspan=2> <div id=_inputText> <input class=input1TS id=dictQuery name=word onFocus=_startInput(this) style="width: 99%;" value="__MSG_input_hint__"> </div> </td> <tr><td style="width: 100%;"> <select id=_source name=sl onchange="_change('sl', this)" style="width: 45%;"> </select> <span class=arrow id=_swap onclick=_swap();>&raquo;</span> <select id=_target name=tl onchange="_change('tl', this)" style="width: 45%;"> </select> </td><td style="width: 100%;"> <input id=button type=submit value="__MSG_lookup__" /> </td> </table> </form> <div align=center class=ref_link id=dict_links> <a href="__MSG_title_url__" target=_blank>__MSG_translate_homepage__</a> </div> <div class=dict_inner id=dict_content></div> </div> <script>var prefs=new _IG_Prefs,spt=document.createElement("script");spt.src="http://www.google.com/translate_a/l?client=ig&hl="+prefs.getMsg("default_hl")+"&cb=updateLanguage&alpha=true";document.getElementsByTagName("head")[0].appendChild(spt);var source_languages=[],target_languages=[],SOURCE_SELECT=_gel("_source"),TARGET_SELECT=_gel("_target"),langmsg={};function bringQueryFromOneBox(f,d){var g=d.getString("default_text");if(g){var k=_gel("dictQuery"+f);k.value=g;k.style.color="#000"}} function swap(f,d){var g=f.value;if(g!="auto"&&g!=d.value){f.value=d.value.substring(0,2)=="zh"?"zh-CN":d.value;if(g=="zh-CN"){if(d.value="zh-CN",prefs.getMsg("default_hl")=="zh-TW")d.value="zh-TW"}else d.value=g;prefs.set("sl",f.value);prefs.set("tl",d.value)}} window.updateLanguage=function(f){var d=[],g=[],k=_gel("_source1"),l=_gel("_target1"),n=prefs.getString("sl"),o=prefs.getString("tl"),i=0,j;for(j in f.sl){source_languages.push([j,f.sl[j]]);langmsg[j]=f.sl[j];d.push(new Option(langmsg[j],j,prefs.getMsg("default_source")==j));if(k&&(k.options[i]=new Option(source_languages[i][1],source_languages[i][0]),source_languages[i][0]==n))k.selectedIndex=i;++i}i=0;for(j in f.tl){target_languages.push([j,f.tl[j]]);langmsg[j]=f.tl[j];g.push(new Option(langmsg[j], j,prefs.getMsg("default_hl")==j));if(l&&(l.options[i]=new Option(target_languages[i][1],target_languages[i][0]),target_languages[i][0]==o))l.selectedIndex=i;++i}langmsg[i]="auto";setSelect("_source","sl",d);setSelect("_target","tl",g);if(n!="")SOURCE_SELECT.value=prefs.getString("sl");if(o!="")TARGET_SELECT.value=prefs.getString("tl")};function setSelect(f,d,g){f=_gel(f);for(d=0;d<g.length;d++)window.ActiveXObject?f.add(g[d]):f.appendChild(g[d])} function createTranslateURL(f,d,g){var k=[],l=document.charset||document.characterSet;k.push("http://www.google.com/translate_a/t?","ie="+l+"&oe=UTF8&client=ig&text=",_esc(f),"&sl="+d+"&tl="+g,"&hl="+prefs.getMsg("default_hl"));return k.join("")}function createWebUrl(f,d,g){var k=[],l=document.charset||document.characterSet;k.push("http://translate.google.com/translate?ie="+l+"&oe=UTF&u=",_esc(f)+"&sl=",d+"&tl="+g,"&hl="+prefs.getMsg("default_hl"));return k.join("")} (function(){function f(a){if(a.value==a.defaultValue)a.value="";a.className=a.className.replace("TS","")}function d(a,b){prefs.set(a,b.value)}function g(){swap(SOURCE_SELECT,TARGET_SELECT)}function k(){if(prefs.getMsg("default_source")=="en"&&prefs.getMsg("default_hl")=="zh-TW")_gel("_inputText").innerHTML='<textarea id="dictQuery" type="text" style="width: 99%;" class="input1TS" name="word" rows="3" onFocus="_startInput(this)" onkeydown="_detectEnter(event)">'+_hesc(prefs.getMsg("input_hint"))+"</textarea>"} function l(){var a=_args().parent,b=a.match(/google\.([a-z\.]+)/i);b?q=b[1]:a.indexOf(".cn/")&&(q="cn");k();window._toggleDisplay=w;window._change=d;window._swap=g;window._startInput=f;window._detectEnter=n;window._showAvailable=x;document._dictionary.onsubmit=r;bringQueryFromOneBox("",prefs);_IG_AdjustIFrameHeight()}function n(a){var b;if(window.event)b=a.keyCode;else if(a.which)b=a.which;b==13&&r()}function o(a){var b=/^(https?:\/\/)?([\w-]+\.)+[\w-]+$/;if(b.test(a))return!0;return!1}function i(a, b,c){b=b+_esc("|")+c;c=[];c.push("http://www.google.com/dictionary/feeds?","client=ig&restrict=pr,al&langpair=",b+"&q="+_esc(a),"&hl="+prefs.getMsg("default_hl"));return c.join("")}function j(a){if(window.ActiveXObject){var b=new ActiveXObject("Microsoft.XMLDOM");b.async="false";b.loadXML(a)}else b=new DOMParser,b=b.parseFromString(a,"text/xml");return b}function y(a,b){var c=b.firstChild.nodeValue,c=c.replace(z,"&nbsp;<font color=gray>$1</font>&nbsp;");a.text+=c}function A(a,b){for(var c=b.childNodes, e={},d=0;d<c.length;d++){var m=c.item(d);if(m.nodeName=="text"&&m.firstChild!=null)e.text=c.item(d).firstChild.nodeValue,e.translate=[];else if(c.item(d).nodeName=="Translated"){for(var m=m.childNodes,f=0;f<m.length;f++){var g=m.item(f);g.nodeName=="text"&&g.firstChild!=null&&e.translate.push(g.firstChild.nodeValue)}a.examples.push(e)}}if(a.examples.length>0)h.hasRichContent=!0}function B(a,b){var c={1:prefs.getMsg("phonetic_us"),2:prefs.getMsg("phonetic_uk"),3:prefs.getMsg("phonetic_zhuyin"),4:prefs.getMsg("phonetic_pinyin")}, e={};e.type=SOURCE_SELECT.value=="zh-CN"?prefs.getMsg("default_hl")=="zh-CN"?c["4"]:c["3"]:c[b.getAttribute("type")];e.text="";for(c=0;c<b.childNodes.length;c++)if(b.childNodes.item(c).nodeName=="text"){e.text=b.childNodes.item(c).firstChild.nodeValue;break}a.ipa.push(e)}function C(a){var b={examples:[],ipa:[],pos:"",text:""},c=a.getAttribute("part_of_speech");b.pos=c!=null&typeof[s[c]]!="undefined"?s[c]:"";a=a.childNodes;for(c=0;c<a.length;c++){var e=a.item(c),d=h.nodeHandlers[e.nodeName];typeof d!= "undefined"&&d(b,e)}a=h.termsGroup[b.pos];typeof a!="undefined"?a.push(b):h.termsGroup[b.pos]=[b];h.termsCount++}function D(){var a="",b;for(b in h.termsGroup)if(!(h.termsGroup[b].length==1&&h.termsGroup[b][0].ipa.length!=0)){var c=1;h.hasRichContent&&(a+='<div class="explanation hide"><div class="meta"><a href="javascript: void(0)" class="toggle" onclick="_toggleDisplay(this)" title='+_hesc(prefs.getMsg("show_hide_examples"))+">&nbsp;</a>");b!=""&&(a+='<span class="word_type">'+b+":</span>");h.hasRichContent&& (a+="</div>");a+='<ol class="meanings">';for(var e=h.termsGroup[b],d=0;d<e.length;d++){var f=e[d];a+='<li><nobr><span class="number">'+c+'.</span><span class="definition">'+f.text+"</span>";if(h.hasRichContent)for(var g=0;g<f.examples.length;g++){var i=f.examples[g].text+"&nbsp;"+f.examples[g].translate.join("&nbsp;");a+='&nbsp;<span class="example">'+i+"</span>"}else a+="<br>";a+="</nobr></li>";c++}a+="</ol>";h.hasRichContent&&(a+="</div>")}return a}function E(a){h.hasRichContent=!1;h.termsCount= 0;h.termsGroup={};h.available=[];var a=a.getElementsByTagName("primary"),b=SOURCE_SELECT.value,c=TARGET_SELECT.value,b=[b,c];if(!(b.length<2||typeof p[b[0]]=="undefined"||typeof p[b[1]]=="undefined")){b=p[b[1]];for(c=0;c<a.length;c++)for(var e=a[c].childNodes,d=0;d<e.length;d++){var f=e.item(d);f.nodeName=="term"&&(f.getAttribute("language")==b||f.getElementsByTagName("PronunciationGroup").length!=0)&&h.addTerm(f)}}}function F(){for(var a in h.termsGroup){var b=h.termsGroup[a],c;for(c in b){var e= b[c];if(e.ipa&&e.ipa.length>0){a=[];a.push('<div id="phonetic_symbol">');for(b=0;b<e.ipa.length;b++)a.push(e.ipa[b].type,": [",e.ipa[b].text,"]"),b!=e.ipa.length-1&&a.push("&nbsp;");a.push("</div>");return a.join("")}}}return""}function x(a){var b={German:"de",French:"fr",Italian:"it",Korean:"ko",Spanish:"es"},c=SOURCE_SELECT.value;if(b[a]!=null)document._dictionary._target.value=b[a],document._dictionary.onsubmit()}function w(a){a=a.parentNode.parentNode;a.className=a.className!="explanation hide"? "explanation hide":"explanation show";_IG_AdjustIFrameHeight();return!0}function t(a,b){var c=j(a),e=!1;if(c.getElementsByTagName("term").length>0&&(h.parse(c),h.termsCount>0))_gel("dict_links").style.display="none",_gel("dict_content").innerHTML=h.showIPA(),_gel("dict_content").innerHTML+=h.getContent(),_gel("dict_content").scrollTop=0,h.available!=""&&(_gel("dict_content").innerHTML+=h.available),e=!0;document._dictionary.word.focus();return e}function u(a){_IG_FetchContent(a,function(b){var a, e;try{e=eval("("+b+")")}catch(d){}if(e)if(typeof e=="object")if(e.length==1)a=_hesc(prefs.getMsg("no_definition"));else{if(e.length>=2)if(langmsg[e[1]]){if(a="<i style=color:grey>"+_hesc(langmsg[e[1]])+" - "+_hesc(langmsg[TARGET_SELECT.value])+"</i><br>"+_hesc(e[0]),e[2]){b=[];b.push("<br><br>");b.push("<ol>");e=e[2];for(var f in e){b.push("<li>");var g=e[f],h;for(h in g)h==0?b.push("<b>",g[h],"</b>"):b.push("<ol><li>",h,".&nbsp;",g[h],"</li></ol>");b.push("</li>")}b.push("</ol>");a+=b.join("")}}else a= _hesc(e[0])}else a=_hesc(e);a==document._dictionary.word.value&&(a=_hesc(prefs.getMsg("no_definition")));_gel("dict_content").innerHTML=a;_IG_AdjustIFrameHeight()})}function r(){var a=document._dictionary.word.value,b=SOURCE_SELECT.value,c=TARGET_SELECT.value;if(o(a))return b=source_languages[SOURCE_SELECT.selectedIndex][0],c=target_languages[TARGET_SELECT.selectedIndex][0],a=createWebUrl(a,b,c),window.open(a,"GoogleTranslateGadgetPopup"),!1;if(a.length>300)return _gel("dict_content").innerHTML="<font color=red>"+ _hesc(prefs.getMsg("input_too_long"))+"</font>&nbsp;<a href="+_hesc(prefs.getMsg("title_url"))+' target="_blank">'+_hesc(prefs.getMsg("google_translation"))+"</a>",_IG_AdjustIFrameHeight(),!1;if(v[b]&&c=="en"&&G.test(a)||b=="en"&&v[c]&&H.test(a))swap(SOURCE_SELECT,TARGET_SELECT),b=SOURCE_SELECT.value,c=TARGET_SELECT.value;var b=[b,c],e=createTranslateURL(a,b[0],b[1]),d,f;if(b[0]=="zh"){var c="zh-CN",g="zh-TW";prefs.getMsg("default_hl")=="zh-TW"&&(c="zh-TW",g="zh-CN");d=i(a,c,b[1]);f=i(a,g,b[1])}else d= i(a,b[0],b[1]),f="";var h=!1;_IG_FetchContent(d,function(a){h=t(a,d);if(!h&&f!="")_IG_FetchContent(f,function(a){if(!t(a,f))_gel("dict_links").style.display="none",u(e);_IG_AdjustIFrameHeight()});else if(!h)_gel("dict_links").style.display="none",u(e);_IG_AdjustIFrameHeight()});a.value="";return!1}var q="com",p={en:"0",fr:"4",de:"5",it:"7",ko:"9",es:"14","zh-TW":"69","zh-CN":"16",zh:"16",ru:"13"},s={1:prefs.getMsg("noun"),2:prefs.getMsg("verb"),3:prefs.getMsg("adj"),4:prefs.getMsg("adv"),5:prefs.getMsg("prep"), 6:prefs.getMsg("abbr"),7:prefs.getMsg("conj"),8:prefs.getMsg("pron"),9:prefs.getMsg("intr"),10:prefs.getMsg("phrase"),11:prefs.getMsg("prefix"),12:prefs.getMsg("suffix"),13:prefs.getMsg("article"),14:prefs.getMsg("combining")},z=/\{([^\}]+)\}/g,H=RegExp("^[\\s\\u0020-\\u0040\\u005B-\\u0060\\u007B-\\u007E\\u1100-\\u11FF\\u3040-\\u30FF\\u3130-\\u318F\\u31F0-\\u31FF\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uAC00-\\uD7A3\\uF900-\\uFAFF\\uFF65-\\uFFDC]+$"),G=RegExp("^[\\s\\u0020-\\u007E]+$"),v={ko:1,ja:1,"zh-TW":1, "zh-CN":1,zh:1},h={hasRichContent:!1,termsCount:0,termsGroup:{},available:[],nodeHandlers:{text:y,Example:A,PronunciationGroup:B},addTerm:C,getContent:D,parse:E,showIPA:F};_IG_RegisterOnloadHandler(l)})();</script>
+]]>
+    </Content>
+    <Content type="html" view="canvas">
+        <![CDATA[
+<style>.full_border{background-color:#e5ecf9;padding:4px 6px;margin:.2em 0;font-size:1em}.arrow{cursor:pointer;font-size:1.5em;vertical-align:-1px}.result_text{font-size:17px;font-family:verdana}.inner_text{font-size:12px;font-family:verdana}</style>
+         <div id="bar">
+        </div>
+ <h1 class=full_border>__MSG_TRANSLATE_TEXT_LBL__</h1> <form name='fulltxtform"' onsubmit="return convertText(this.orig_text.value);"> <table border=0 width=95%> <tr> <td style="width: 42%;"><font class=inner_text> __MSG_ORIGINAL_TEXT_LBL__</font> </td> <td style="width: 45%;"><font class=inner_text> __MSG_TRANSLATED_TEXT_LBL__</font></td> <tr> <td style="width: 42%;"><textarea class=inner_text id=orig_text rows=10 style="width: 98%;" tabindex=1></textarea></td> <td style="width: 45%;"><textarea class=inner_text id=converted_text rows=10 style="width: 90%;" tabindex=2></textarea></td> <tr> <td style="width: 40%;"> <select id=_source name=text_source style="width: 25%;" tabindex=3></select> <span class=arrow id=_swap onclick=swapOptions(1);>&raquo;</span> <select id=_target name=text_dest style="width: 25%;" tabindex=4></select> <input id=txtTrans_button tabindex=5 type=submit value="__MSG_TRANSLATE_CAPTION__"> <input id=txtClear_button onclick=clearWordForm() tabindex=6 type=button value=" __MSG_CLEAR_CAPTION__ "> </td> <tr><td><div id=linkinfo></div></td> </table> </form> <form name=wordform onsubmit="return processWordRequest(this._word.value);"> <table border=0 height=30% width=100%> <tr height=5% width=50%> <td style="width: 46%;"> <h1 class=full_border style="width: 96%;"> __MSG_FIND_WORD_LBL__ </h1> </td> <td style="width: 55%;"> <h1 class=full_border> __MSG_RELATED_LANG_LBL__</h1> </td> <tr height=5% width=46%> <td style="width: 45%"> <table border=0> <tr> <td> <font class=inner_text> __MSG_ENTER_WORD_LBL__ </font></td><td> <input id=_word size=24px tabindex=7> </td> <tr> <td> <font class=inner_text> __MSG_DICTIONARY_LBL__</font> </td> <td><select id=_source2 name=tl style="width: 175px;" tabindex=8></select> <input id=word_button tabindex=9 type=submit value=" __MSG_FIND_CAPTION__ "> </td> </table> </td> <td VALIGN=top align="__BIDI_START_EDGE__" style=width:50%;> <div id=related_languages_dv></div> </td> <tr height=5% width=50%> <td style="width: 46%;"> <h1 class=full_border style="width: 96%;">__MSG_TRANSLATION_WORD_LBL__</h1> </td> <td style="width: 45%;"> <h1 class=full_border> __MSG_RELATED_PHRASES_LBL__</h1> </td> <tr height=*> <td ALIGN="__BIDI_START_EDGE__" VALIGN=top style="width: 45%;"> <div id=transalation_dv></div> </td> <td ALIGN="__BIDI_START_EDGE__" style="margin-__BIDI_START_EDGE__:1px; width: 50%;" valign=top> <div id=related_phrases_dv></div> </td> </table> </form> <form name=webform onsubmit="return processWebRequest(this._url.value);"> <h1 class=full_border>__MSG_TRANS_WEBPAGE_LBL__</h1> <table border=0 id=webtable style=width:100%;> <tr style=width:100%;> <td style=width:100%;> <input dir=ltr id=_url name=test_webpage style="width: 100%;" tabindex=10 value=http://> </td> <tr> <font class=inner_text> &nbsp;__MSG_URL_LBL__ </font> <td style="width: 50%;"> <select id=_source1 name=sl style="width: 11%;" tabindex=11></select> <span class=arrow id=_swap1 onclick=swapOptions(2);>&raquo;</span> <select id=_target1 name=tl style="width: 11%;" tabindex=12></select> <input id=web_button tabindex=13 type=submit value="__MSG_lookup__"> <input id=web_button1 onclick=clearWebForm(); tabindex=14 type=button value=" __MSG_CLEAR_CAPTION__ "> </td> </table> </form> <script>var prefs=new _IG_Prefs,spt=document.createElement("script");spt.src="http://www.google.com/translate_a/l?client=ig&hl="+prefs.getMsg("default_hl")+"&cb=updateLanguage&alpha=true";document.getElementsByTagName("head")[0].appendChild(spt);var source_languages=[],target_languages=[],SOURCE_SELECT=_gel("_source"),TARGET_SELECT=_gel("_target"),langmsg={};function bringQueryFromOneBox(d,e){var h=e.getString("default_text");if(h){var i=_gel("dictQuery"+d);i.value=h;i.style.color="#000"}} function swap(d,e){var h=d.value;if(h!="auto"&&h!=e.value){d.value=e.value.substring(0,2)=="zh"?"zh-CN":e.value;if(h=="zh-CN"){if(e.value="zh-CN",prefs.getMsg("default_hl")=="zh-TW")e.value="zh-TW"}else e.value=h;prefs.set("sl",d.value);prefs.set("tl",e.value)}} window.updateLanguage=function(d){var e=[],h=[],i=_gel("_source1"),k=_gel("_target1"),m=prefs.getString("sl"),o=prefs.getString("tl"),b=0,g;for(g in d.sl){source_languages.push([g,d.sl[g]]);langmsg[g]=d.sl[g];e.push(new Option(langmsg[g],g,prefs.getMsg("default_source")==g));if(i&&(i.options[b]=new Option(source_languages[b][1],source_languages[b][0]),source_languages[b][0]==m))i.selectedIndex=b;++b}b=0;for(g in d.tl){target_languages.push([g,d.tl[g]]);langmsg[g]=d.tl[g];h.push(new Option(langmsg[g], g,prefs.getMsg("default_hl")==g));if(k&&(k.options[b]=new Option(target_languages[b][1],target_languages[b][0]),target_languages[b][0]==o))k.selectedIndex=b;++b}langmsg[b]="auto";setSelect("_source","sl",e);setSelect("_target","tl",h);if(m!="")SOURCE_SELECT.value=prefs.getString("sl");if(o!="")TARGET_SELECT.value=prefs.getString("tl")};function setSelect(d,e,h){d=_gel(d);for(e=0;e<h.length;e++)window.ActiveXObject?d.add(h[e]):d.appendChild(h[e])} function createTranslateURL(d,e,h){var i=[],k=document.charset||document.characterSet;i.push("http://www.google.com/translate_a/t?","ie="+k+"&oe=UTF8&client=ig&text=",_esc(d),"&sl="+e+"&tl="+h,"&hl="+prefs.getMsg("default_hl"));return i.join("")}function createWebUrl(d,e,h){var i=[],k=document.charset||document.characterSet;i.push("http://translate.google.com/translate?ie="+k+"&oe=UTF&u=",_esc(d)+"&sl=",e+"&tl="+h,"&hl="+prefs.getMsg("default_hl"));return i.join("")} (function(){function d(f){_IG_FetchContent(f,function(a){_gel("converted_text").value=a})}function e(f){for(var a=[],b=0,n=0;n<f.length;n++)for(var j=f.item(n).childNodes,c=0;c<j.length;c++)for(var g=j.item(c).childNodes,e=0;e<g.length;e++){var d=g.item(e);if(d.nodeName=="text")a[b]=d.firstChild.nodeValue,b++}return a}function h(){var f=_gel("transalation_dv"),a=_gel("related_phrases_dv"),e=_gel("related_languages_dv"),n=12;f.innerHTML="";a.innerHTML="";var j=e.innerHTML="";if(b.length==0&&g.length== 0&&l.length==0)return j='<font class="inner_text">',f.innerHTML=j+_hesc(prefs.getMsg("NO_WORD_LBL"))+"</font>",a.innerHTML=j+_hesc(prefs.getMsg("NO_RELATED_PHRASES_ERR"))+"</font>",e.innerHTML=j+_hesc(prefs.getMsg("NO_RELATED_LANGUAGE_ERR"))+"</font>",!1;if(b.length>0){j=[];j.push('<table "border=0" width="98%" cellpadding="4px">');for(var c=0;c<b.length;c++)c==0&&j.push('<tr><td style="width: 20%;" valign="top">','<font class="result_text">'," "+b[c++]+"</font></td>"),c<b.length&&j.push('<tr><td style="width: 20%;" valign="top">', '<font class="inner_text">',c+". "+b[c++]+"</td>"),c<b.length&&j.push('<td style="width: 20%;" valign="top">','<font class="inner_text">',c+". "+b[c++]+"</td>"),c<b.length&&j.push('<td style="width: 20%;" valign="top">','<font class="inner_text">',c+". "+b[c++]+"</td>"),c<b.length&&j.push('<td style="width: 20%;" valign="top">','<font class="inner_text">',c+". "+b[c]+"</td></tr>");j.push("</table>")}else j=[],j.push('<font class="inner_text">',_hesc(prefs.getMsg("NO_WORD_LBL"))+"</font>");f.innerHTML= j.join("");if(g.length>0){if(g.length<12)n=g.length;f=[];f.push("<table border=0 width=95%>");for(c=0;c<n;c++)f.push('<tr><td style="width: 25%;">','<font class="inner_text">'," "+g[c++]+"</td>"),c<g.length&&f.push('<td style="width: 25%;">','<font class="inner_text">'," "+g[c]+"</td></tr>");a.innerHTML=f.join("")}else c='<font class="inner_text">',a.innerHTML=c+_hesc(prefs.getMsg("NO_RELATED_PHRASES_ERR"))+"</font>";a=[];if(l.length>0){a.push('<font class="inner_text"><b>',_gel("_word").value+"</b>", _hesc(prefs.getMsg("IS_ALSO_WORD_LBL")));for(c=0;c<l.length;c++)a.push(l[c]+" ");a.push("</font>");e.innerHTML=a.join("")}else c=[],c.push('<font class="inner_text">',_hesc(prefs.getMsg("NO_RELATED_LANGUAGE_ERR"))+"</font>"),e.innerHTML=c.join("");_IG_AdjustIFrameHeight()}function i(){var f=_gel("_source2");k(f,prefs.getString("sl"),prefs.getString("tl"));bringQueryFromOneBox("",prefs)}function k(f,a,e){a=="zh"&&(a=prefs.getMsg("default_hl")=="zh-TW"?"zh-TW":"zh-CN");for(var b=-1,g=-1,c=0,d=0;c<m.length;++c)for(var h= m[c][0],i=m[c][1],k=0;k<i.length;++k,++d){var l=i[k],p=prefs.getMsg(h.replace("-","_"));if(h!=l&&(p+=" - "+prefs.getMsg(l.replace("-","_")),h in o||l in o))p+=" BETA";f.options[d]=new Option(p,h+"|"+l);a==h&&(b<0&&(b=d),e==l&&(g=d))}if(g>0)f.selectedIndex=g;else if(b>0)f.selectedIndex=b}var m=[["en",["en","fr","de","it","ko","es","ru","zh-TW","zh-CN","pt","hi","ar","cs","bg","hr","fi","iw","el","sr"]],["fr",["en","fr"]],["de",["en","de"]],["it",["en","it"]],["ko",["en","ko"]],["es",["en","es"]],["ru", ["en","ru"]],["zh-TW",["en","zh-TW"]],["zh-CN",["en","zh-CN"]],["pt",["en","pt"]],["hi",["en"]],["nl",["nl","en"]],["cs",["en"]],["bg",["en"]],["hr",["en"]],["fi",["en"]],["iw",["en"]],["el",["en"]],["sr",["en"]]],o={de:1,ko:1,ru:1},b,g,l;window.convertText=function(f){var a=_gel("linkinfo");a.innerHTML="";var a=source_languages[_gel("_source").selectedIndex][0],b=target_languages[_gel("_target").selectedIndex][0],f=f.replace(/^\s+|\s+$/g,"");if(f=="")return alert(prefs.getMsg("ENTER_MSG_LBL")),_gel("converted_text").value= " ",_gel("orig_text").focus(),!1;var e=a!="en"?150:1024;if(f.length>e)return alert(prefs.getMsg("LENGTH_EXCEED_LBL")+" "+e+"."),_gel("converted_text").value="",a=_gel("linkinfo"),b=[],b.push(_hesc(prefs.getMsg("LIMIT_EXCEEDS_ERR"))+" .<br>",'<a href="http://translate.google.com/translate_t"','target="_blank">http://translate.google.com/translate_t</a>'),a.innerHTML=b.join(""),!1;e=f;if(a==b)return _gel("converted_text").value=f,!1;d(createTranslateURL(e,a,b));return!1};window.swapOptions=function(b){b== 1?swap(SOURCE_SELECT,TARGET_SELECT):b==2&&swap(_gel("_source1"),_gel("_target1"))};window.clearWordForm=function(){_gel("orig_text").value="";_gel("converted_text").value="";_gel("linkinfo").innerHTML=""};window.processWordRequest=function(f){f=f.replace(/^\s+|\s+$/g,"");if(f=="")return alert(prefs.getMsg("ENTER_ALERT_WORD_LBL")),_gel("_word").focus(),_gel("transalation_dv").innerHTML="",_gel("related_phrases_dv").innerHTML="",_gel("related_languages_dv").innerHTML="",!1;var a=_gel("linkinfo");a.innerHTML= "";b=[];g=[];l=[];var a=_gel("_source2"),a=a.options[a.selectedIndex].value,d="http://www.google.com/translate_dict/feeds?client=ig&hl=en&q=%TEXT%&restrict=re,al,pr&langpair=%LANG_PAIR%",d=d.replace(/%TEXT%/g,_esc(f)),d=d.replace(/%LANG_PAIR%/g,_esc(a));_IG_FetchXmlContent(d,function(a){if(a==null||typeof a!="object"||a.firstChild==null)alert(prefs.getMsg("RESPONSE_INVALID_ERR")+a);else try{var d=a.getElementsByTagName("primary");b=e(d);var c=a.getElementsByTagName("related_phrase");g=e(c);for(var d= 0,f=a.getElementsByTagName("AvailableLanguages"),a=0;a<f.length;a++)for(var i=f.item(a).childNodes,c=0;c<i.length;c++){var k=i.item(c);if(k.nodeName=="source")l[d]=k.firstChild.nodeValue,d++}h()}catch(m){alert(prefs.getMsg("PARSING_ERR")+m)}});return!1};window.processWebRequest=function(b){if(b=="http://"||b=="")return alert(prefs.getMsg("URL_INVALID_ERR")),_gel("_url").focus(),!1;var a=_gel("linkinfo");a.innerHTML="";var a=source_languages[_gel("_source1").selectedIndex][0],d=target_languages[_gel("_target1").selectedIndex][0], a=createWebUrl(b,a,d);window.open(a,"GoogleTranslateGadgetPopup");return!1};window.clearWebForm=function(){_gel("_url").value="http://"};_IG_RegisterOnloadHandler(i)})();</script>
+]]>
+    </Content>
+</Module>

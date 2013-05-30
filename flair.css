@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400&subset=latin,latin-ext,cyrillic-ext);
+
+#content {
+    display: none;
+}
+
+#bar {
+    background-color: #e2e2e2;
+    background-image: url('https://translate-widget.identitylabs.org/translate.png');
+    background-size: auto 24px;
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    min-height: 32px;
+}
+
+#body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dictTab {
+    font-family: 'Open Sans', sans-serif;
+}
