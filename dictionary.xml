@@ -1,5 +1,14 @@
 <Module>
-    <ModulePrefs title="__MSG_title__" title_url="__MSG_title_url__" description="__MSG_description__" author="Google Taiwan" author_email="googlemodules+dictionary+201109071@google.com" author_affiliation="Google Inc." author_location="Taiwan" category="tools" thumbnail="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/__MSG_thumbnail__" screenshot="http://www.gstatic.com/ig/modules/dictionary/dictionary_content/__MSG_screenshot__">
+    <ModulePrefs title="Google Translate"
+                 title_url="https://github.com/conext/translate-widget"
+                 description="Google Translate Widget"
+                 author="Google Taiwan"
+                 author_email="googlemodules+dictionary+201109071@google.com"
+                 author_affiliation="Google Inc."
+                 author_location="Taiwan"
+                 category="tools"
+                 thumbnail="https://translate-widget.identitylabs.org/translate_logo.png"
+                 screenshot="https://translate-widget.identitylabs.org/translate_logo.png">
         <Require feature="setprefs"/>
         <Require feature="dynamic-height"/>
         <Icon>
