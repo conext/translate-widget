@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400&subset=latin,latin-ext,cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400&subset=latin,latin-ext,cyrillic-ext);
 
 #content {
     display: none;
@@ -6,7 +6,7 @@
 
 #bar {
     background-color: #e5ecf9;
-    background-image: url('https://translate-widget.identitylabs.org/translate.png');
+    background-image: url('https://translate-widget.identitylabs.org/translate.png'); /* CONFIGURATION */
     background-size: auto 24px;
     background-position: 3px center;
     background-repeat: no-repeat;

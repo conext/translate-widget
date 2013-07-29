@@ -1,4 +1,5 @@
 <Module>
+    <!-- CONFIGURATION: screenshot & thumbnail ATTRIBUTES -->
     <ModulePrefs title="Google Translate"
                  title_url="https://github.com/conext/translate-widget"
                  description="Google Translate Widget"
@@ -9,6 +10,8 @@
                  category="tools"
                  thumbnail="https://translate-widget.identitylabs.org/translate_logo.png"
                  screenshot="https://translate-widget.identitylabs.org/translate_logo.png">
+    <!-- END CONFIGURATION -->
+
         <Require feature="setprefs"/>
         <Require feature="dynamic-height"/>
         <Icon>
